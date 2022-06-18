@@ -19,6 +19,7 @@ public class ConfigClientController {
 
     @GetMapping("/config/info")
     public String getConfigInfo() {
+        String originDev =  "远程dev分支添加";
         return configInfo;
     }
 }
