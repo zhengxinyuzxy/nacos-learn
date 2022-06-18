@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class ConfigClientController {
-
+    // 远程master第二次添加
     // 远程master添加
 
     //  获取配置中心的配置数据
