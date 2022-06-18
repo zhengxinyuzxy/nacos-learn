@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigClientController {
 
+    // 本地dev分支添加
+
     //  获取配置中心的配置数据
     @Value("${config.info}")
     private String configInfo;
