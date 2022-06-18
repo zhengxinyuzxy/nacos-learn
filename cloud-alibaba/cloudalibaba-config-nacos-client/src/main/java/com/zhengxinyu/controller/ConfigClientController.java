@@ -24,6 +24,11 @@ public class ConfigClientController {
         String originDev =  "远程dev分支添加";
         String localDev =  "本地dev分支添加";
         localDev =  "本地dev分支第二次添加";
+        String localMaster =  "本地master分支添加";
+        localDev =  "本地dev分支第三次添加";
+        localMaster =  "本地master分支第二次添加";
+        localMaster =  "本地master分支第三次添加";
+        localDev =  "本地dev分支第四次次添加";
         return configInfo;
     }
 }
