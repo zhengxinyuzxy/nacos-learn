@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class ConfigClientController {
+    
+    // 远程master添加
 
     //  获取配置中心的配置数据
     @Value("${config.info}")
