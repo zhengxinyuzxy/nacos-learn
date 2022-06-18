@@ -13,10 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigClientController {
 
-    // 远程master添加
-    // 远程dev添加
-    // 远程dev第二次添加
-
     //  获取配置中心的配置数据
     @Value("${config.info}")
     private String configInfo;
