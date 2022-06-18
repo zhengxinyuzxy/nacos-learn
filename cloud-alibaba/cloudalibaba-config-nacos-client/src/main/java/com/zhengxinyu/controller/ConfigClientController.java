@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class ConfigClientController {
-    
+
     // 远程master添加
 
     //  获取配置中心的配置数据
@@ -21,6 +21,9 @@ public class ConfigClientController {
 
     @GetMapping("/config/info")
     public String getConfigInfo() {
+        String originDev =  "远程dev分支添加";
+        String localDev =  "本地dev分支添加";
+        localDev =  "本地dev分支第二次添加";
         return configInfo;
     }
 }
