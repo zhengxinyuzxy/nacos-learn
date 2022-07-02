@@ -15,6 +15,7 @@ public class ConfigClientController {
 
     // dev 19:41
     // dev 19:42
+    // dev 19:46
 
     //  获取配置中心的配置数据
     @Value("${config.info}")
