@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConfigClientController {
 
     // master 19:56
+    // master 19:57
 
     //  获取配置中心的配置数据
     @Value("${config.info}")
